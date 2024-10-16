@@ -16,6 +16,16 @@
 		<link href='https://fonts.googleapis.com/css2?family=IM+Fell+English&amp;display=swap' rel='stylesheet'/>
     <link href='https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200' rel='stylesheet'/>
 <b:skin><![CDATA[
+html {
+    font-family: 'IM Fell English', serif;
+}
+
+/* Exclude the translation widget from the universal font */
+#google_translate_element, 
+#google_translate_element * {
+    font-family: inherit; /* Use the default font or browser-defined styles */
+}
+
 :root {
     /* Colors */
     --color-text-main: #ececeb;
@@ -99,27 +109,42 @@ code {
 }
 .header-container {
     position: relative;
-    background: url('https://i.imgur.com/njp6ft4.jpeg') no-repeat center center;
+    background: linear-gradient(to bottom, rgba(19, 19, 20, 0.8), rgba(19, 19, 20, 0.5)), 
+                url('https://i.imgur.com/ZHrHv5J.png') no-repeat center center;
     background-size: cover;
     padding: 20px;
     display: flex;
-    flex-direction: row; /* Align content in a row */
+    flex-direction: row;
     align-items: center;
     border-radius: 8px;
 }
 
+
+/* Logo Container */
 .logo-container {
     width: 120px;
     height: 120px;
     margin-right: 20px;
-	margin-left: 90px;
+    margin-left: 90px;
     border-radius: 50%;
     background-color: #1c1c1e;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: box-shadow 0.3s ease; /* Glow effect */
 }
 
+.logo-container a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-container:hover {
+    box-shadow: 0 0 8px rgba(236, 236, 235, 0.8); /* Glow effect on hover */
+}
+
+/* Header Logo */
 .header-logo {
     width: 100%;
     height: 100%;
@@ -132,12 +157,25 @@ code {
     transform: scale(1.05);
 }
 
+/* Tier List Title */
 .tier-list-title {
     display: flex;
     flex-direction: column;
-    text-align: left; /* Align text on the left side */
-    margin-left: 20px; /* Align title next to logo */
-	margin-right: 200px;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 200px;
+    transition: text-shadow 0.3s ease; /* Glow effect on hover */
+}
+
+.tier-list-title a {
+    color: #ececeb;
+    text-decoration: none;
+    transition: text-shadow 0.3s ease, color 0.3s ease;
+}
+
+.tier-list-title a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 8px rgba(236, 236, 235, 0.8); /* Glow effect on hover */
 }
 
 .murdochs {
@@ -149,18 +187,55 @@ code {
     font-size: 2rem;
 }
 
+/* Search Bar */
 .search-bar {
-    width: 600px;
-    height: 40px;
-    margin-left: auto; /* Aligns search bar to the right */
-	margin-right: 300px;
-    border-radius: 20px;
-    transition: box-shadow 0.3s ease;
+  width: 480px; /* 20% smaller than 600px */
+  height: 40px;
+  margin-left: auto;
+  margin-right: 300px;
+  border-radius: 20px;
+  transition: box-shadow 0.3s ease;
 }
 
+/* Glow Effect on Hover */
 .search-bar:hover,
 .search-bar:focus-within {
-    box-shadow: 0 0 2px 2px var(--color-search-glow);
+  box-shadow: 0 0 2px 2px var(--color-search-glow);
+}
+
+.search-bar form {
+  display: flex;
+  background-color: var(--color-search-default);
+  border-radius: 20px;
+  overflow: hidden;
+  height: 100%;
+  transition: background-color 0.3s ease;
+}
+
+/* Input and Button Styles */
+.search-bar input {
+  flex: 1;
+  padding: 0 15px;
+  border: none;
+  background: transparent;
+  color: var(--color-on-background);
+  outline: none;
+}
+
+.search-bar button {
+  background-color: transparent;
+  border: none;
+  padding: 0 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-on-surface);
+}
+
+.search-bar:hover form,
+.search-bar:focus-within form {
+  background-color: var(--color-search-hover);
 }
 
 .bell-icon {
@@ -211,8 +286,7 @@ code {
 .dropdown-menu ul li a:hover {
     background-color: #2a2a2b;
 }
-
-/* Container for Sidebar and Content */
+/* Sidebar Container */
 .container {
     display: flex;
     justify-content: flex-end; /* Move the sidebar to the right */
@@ -222,15 +296,19 @@ code {
     padding-top: 20px;
 }
 
-/* Sidebar Container */
 .blog-sidebar-container {
-    width: 270px;
-    padding-right: 32px;
+    width: 260px;
+    padding: 20px 32px 20px 20px; /* Add left padding of 20px */
     background-color: #131314;
     color: #ffffff;
     overflow: hidden; /* Prevents overflow */
     border-radius: 10px; /* Ensures rounded corners */
-    padding-bottom: 20px; /* Avoid bottom overflow */
+    transition: box-shadow 0.3s ease; /* Transition for the glow effect */
+}
+
+/* Glow effect on hover */
+.blog-sidebar-container:hover {
+    box-shadow: 0 0 10px 5px rgba(236, 236, 235, 0.6); /* Glow effect */
 }
 
 /* Widget Content Styles */
@@ -252,15 +330,17 @@ code {
     list-style: none; /* Removes bullets */
 }
 
+/* Text Glow on Hover */
 .widget-content a {
     color: #ececeb;
     text-decoration: none;
+    transition: text-shadow 0.3s ease, color 0.3s ease; /* Transition for glow effect */
 }
 
 .widget-content a:hover {
     color: #ffffff;
+    text-shadow: 0 0 5px rgba(236, 236, 235, 0.8); /* Glow effect on hover */
 }
-
 
 /* Content Section */
 #contentSection {
@@ -562,14 +642,19 @@ code {
   <body>
   <div class='header-container'>
     <header class='header'>
-        <!-- Logo and Title -->
-        <div class='logo-container'>
-            <a href='https://moribundmurdoch.blogspot.com/'>
-                <img alt='Murdoch Logo' class='header-logo' src='https://i.imgur.com/Uv6Xnyx.png'/>
-            </a>
-        </div>
+   <div class='logo-container'>
+    <a href='https://murdochstierlisteverything.blogspot.com/'>
+        <img alt='Murdoch Logo' class='header-logo' src='https://i.imgur.com/Uv6Xnyx.png'/>
+    </a>
+</div>
 
-        <h1 class='tier-list-title'>Murdoch&#39;s Tier List Everything</h1>
+<h1 class='tier-list-title'>
+    <a href='https://murdochstierlisteverything.blogspot.com/'>
+        <span class='murdochs'>Murdoch&#39;s</span>
+        <span class='tier-list'>Tier List Everything</span>
+    </a>
+</h1>
+
 
         <!-- Search Bar Section -->
         <div class='search-bar'>
