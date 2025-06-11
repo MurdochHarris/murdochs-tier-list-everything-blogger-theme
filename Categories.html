@@ -1,0 +1,335 @@
+<link href="https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap" rel="stylesheet" />
+
+<style>
+body {
+  background-color: var(--color-background);
+  color: var(--color-on-background);
+  font-family: var(--font-primary);
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+/* Container */
+.category-section {
+  padding: var(--padding-general);
+  max-width: 1000px;
+  margin: auto;
+}
+/* Headers */
+.category-section h1,
+.category-section h2 {
+  color: var(--color-on-background);
+  border-bottom: 1px solid var(--color-link-hover);
+  padding-bottom: 6px;
+  margin-top: 40px;
+  text-shadow: 0 0 4px var(--color-search-glow);
+}
+/* Category Grid */
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 10px;
+  margin-top: 15px;
+}
+.category-grid a {
+  display: block;
+  padding: 10px;
+  background: linear-gradient(135deg, #0d1322, #070d1a);
+  color: var(--color-on-background);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: 6px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: 0 0 2px var(--color-search-glow);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+.category-grid a:hover {
+  box-shadow: 0 0 10px var(--color-border);
+  transform: scale(1.05);
+}
+/* Navigation Buttons */
+.nav-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+  align-items: center;
+}
+.nav-buttons a {
+  padding: 6px 12px;
+  background: #0f0f0f;
+  color: var(--color-on-background);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: 4px;
+  text-decoration: none;
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+}
+.nav-buttons a:hover {
+  background-color: var(--category-item-hover-bg);
+  box-shadow: 0 0 8px var(--color-border);
+}
+/* Hide redundant title if needed */
+h3.post-title.entry-title[itemprop="name"] {
+  display: none;
+}
+</style>
+
+<div class="category-section">
+
+  <h1>Browse Categories</h1>
+  
+<!-- Alphabet Filter -->
+<div class="nav-buttons">
+  <span style="color:#d0f9f7;">A–Z:</span>
+  <a href="/search/label/A">A</a>
+  <a href="/search/label/B">B</a>
+  <a href="/search/label/C">C</a>
+  <a href="/search/label/D">D</a>
+  <a href="/search/label/E">E</a>
+  <a href="/search/label/F">F</a>
+  <a href="/search/label/G">G</a>
+  <a href="/search/label/H">H</a>
+  <a href="/search/label/I">I</a>
+  <a href="/search/label/J">J</a>
+  <a href="/search/label/K">K</a>
+  <a href="/search/label/L">L</a>
+  <a href="/search/label/M">M</a>
+  <a href="/search/label/N">N</a>
+  <a href="/search/label/O">O</a>
+  <a href="/search/label/P">P</a>
+  <a href="/search/label/Q">Q</a>
+  <a href="/search/label/R">R</a>
+  <a href="/search/label/S">S</a>
+  <a href="/search/label/T">T</a>
+  <a href="/search/label/U">U</a>
+  <a href="/search/label/V">V</a>
+  <a href="/search/label/W">W</a>
+  <a href="/search/label/X">X</a>
+  <a href="/search/label/Y">Y</a>
+  <a href="/search/label/Z">Z</a>
+</div>
+
+  <!-- By Author -->
+  <h2 id="authors">
+    <span style="color: #67fff0;">By Author</span>
+  </h2>
+  <div class="nav-buttons" id="author-links">
+    <span style="color:#d0f9f7;">A–Z:</span>
+  </div>
+
+  <!-- By Musical Artist -->
+  <h2 id="musicians">
+    <span style="color: #67fff0;">By Musical Artist</span>
+  </h2>
+  <div class="nav-buttons" id="musician-links">
+    <span style="color:#d0f9f7;">A–Z:</span>
+  </div>
+
+  <!-- By Painter -->
+  <h2 id="painters">
+    <span style="color: #67fff0;">By Painter</span>
+  </h2>
+  <div class="nav-buttons" id="painter-links">
+    <span style="color:#d0f9f7;">A–Z:</span>
+  </div>
+
+  <!-- By Actor -->
+  <h2 id="actors">
+    <span style="color: #67fff0;">By Actor</span>
+  </h2>
+  <div class="nav-buttons" id="actor-links">
+    <span style="color:#d0f9f7;">A–Z:</span>
+  </div>
+
+<!-- By Anime -->
+  <h2 id="animes">
+    <span style="color: #67fff0;">By Anime</span>
+  </h2>
+  <div class="nav-buttons" id="anime-links">
+    <span style="color:#d0f9f7;">A–Z:</span>
+  </div>
+  <!-- By Korean Drama -->
+<h2 id="kdramas">
+  <span style="color: #67fff0;">By Korean Drama</span>
+</h2>
+<div class="nav-buttons" id="kdrama-links">
+  <span style="color:#d0f9f7;">A–Z:</span>
+</div>
+
+<!-- By Animal -->
+<h2 id="animals">
+  <span style="color: #67fff0;">By Animal</span>
+</h2>
+<div class="nav-buttons" id="animal-links">
+  <span style="color:#d0f9f7;">A–Z:</span>
+</div>
+
+<!-- Dewey Filters -->
+<div class="nav-buttons">
+  <span style="color:#d0f9f7;">By Topic:</span>
+  <a href="#dewey-000">General Works</a>
+  <a href="#dewey-100">Philosophy</a>
+  <a href="#dewey-200">Religion</a>
+  <a href="#dewey-300">Social Sciences</a>
+  <a href="#dewey-400">Language</a>
+  <a href="#dewey-500">Pure Science</a>
+  <a href="#dewey-600">Technology</a>
+  <a href="#dewey-700">Arts</a>
+  <a href="#dewey-800">Literature</a>
+  <a href="#dewey-900">History</a>
+</div>
+
+<h2 id="dewey-000">
+  <a href="/search/label/000" style="color: #67fff0; text-decoration: none;">
+    000 – General Works
+  </a>
+</h2>
+<div class="category-grid">
+  <a href="/search/label/Encyclopedias">Encyclopedias</a>
+  <a href="/search/label/Curiosities">Curiosities</a>
+</div>
+
+<h2 id="dewey-100">
+  <a href="/search/label/100" style="color: #67fff0; text-decoration: none;">
+    100 – Philosophy & Psychology
+  </a>
+</h2>
+<div class="category-grid">
+  <a href="/search/label/Metaphysics">Metaphysics</a>
+  <a href="/search/label/Epistemology">Epistemology</a>
+</div>
+
+<h2 id="dewey-200">
+  <a href="/search/label/200" style="color: #67fff0; text-decoration: none;">
+    200 – Religion
+  </a>
+</h2>
+
+<!-- Category Grid -->
+<div class="category-grid" style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px;">
+
+  <!-- Dewey Topics -->
+  <a href="/search/label/Theology" style="color: #ffffff; background-color: #5ca9f7; padding: 6px 10px; border-radius: 5px; text-decoration: none;">Theology</a>
+  <a href="/search/label/Mythology" style="color: #ffffff; background-color: #f78cb0; padding: 6px 10px; border-radius: 5px; text-decoration: none;">Mythology</a>
+
+  <!-- Major World Religions -->
+  <a href="/search/label/Buddhism" style="background-color: #ffdf80; padding: 6px 10px; border-radius: 5px; text-decoration: none;">Buddhism</a>
+  <a href="/search/label/Christianity" style="background-color: #c0dfff; padding: 6px 10px; border-radius: 5px; text-decoration: none;">Christianity</a>
+  <a href="/search/label/Hinduism" style="background-color: #ffc4e1; padding: 6px 10px; border-radius: 5px; text-decoration: none;">Hinduism</a>
+  <a href="/search/label/Islam" style="background-color: #c2ffd8; padding: 6px 10px; border-radius: 5px; text-decoration: none;">Islam</a>
+  <a href="/search/label/Judaism" style="background-color: #e2caff; padding: 6px 10px; border-radius: 5px; text-decoration: none;">Judaism</a>
+  <a href="/search/label/Sikhism" style="background-color: #ffd6a3; padding: 6px 10px; border-radius: 5px; text-decoration: none;">Sikhism</a>
+  <a href="/search/label/Taoism" style="background-color: #b4ffe1; padding: 6px 10px; border-radius: 5px; text-decoration: none;">Taoism</a>
+  <a href="/search/label/Confucianism" style="background-color: #fad1ff; padding: 6px 10px; border-radius: 5px; text-decoration: none;">Confucianism</a>
+  <a href="/search/label/Shinto" style="background-color: #ffe0b2; padding: 6px 10px; border-radius: 5px; text-decoration: none;">Shinto</a>
+  <a href="/search/label/Bahai" style="background-color: #d1e8ff; padding: 6px 10px; border-radius: 5px; text-decoration: none;">Baháʼí Faith</a>
+  <a href="/search/label/Jainism" style="background-color: #ffe6e6; padding: 6px 10px; border-radius: 5px; text-decoration: none;">Jainism</a>
+  <a href="/search/label/Zoroastrianism" style="background-color: #e6f0ff; padding: 6px 10px; border-radius: 5px; text-decoration: none;">Zoroastrianism</a>
+
+  <!-- See More Button -->
+  <a href="https://murdochstierlisteverything.blogspot.com/p/by-religion.html"
+     style="background-color: #67fff0; color: #000000; padding: 6px 12px; border-radius: 6px; text-decoration: none; font-weight: bold;">
+    See More →
+  </a>
+</div>
+
+
+<h2 id="dewey-300">
+  <a href="/search/label/300" style="color: #67fff0; text-decoration: none;">
+    300 – Social Sciences
+  </a>
+</h2>
+<div class="category-grid">
+  <a href="/search/label/Politics">Politics</a>
+  <a href="/search/label/Sociology">Sociology</a>
+</div>
+
+<h2 id="dewey-400">
+  <a href="/search/label/400" style="color: #67fff0; text-decoration: none;">
+    400 – Language
+  </a>
+</h2>
+<div class="category-grid">
+  <a href="/search/label/English">English</a>
+  <a href="/search/label/Swahili">Swahili</a>
+  <a href="/search/label/Verbs">Verbs</a>
+  <a href="/search/label/Nouns">Nouns</a>
+</div>
+
+<h2 id="dewey-500">
+  <a href="/search/label/500" style="color: #67fff0; text-decoration: none;">
+    500 – Pure Science
+  </a>
+</h2>
+<div class="category-grid">
+  <a href="/search/label/Biology">Biology</a>
+  <a href="/search/label/Physics">Physics</a>
+  <a href="/search/label/Chemistry">Chemistry</a>
+</div>
+
+<h2 id="dewey-600">
+  <a href="/search/label/600" style="color: #67fff0; text-decoration: none;">
+    600 – Technology
+  </a>
+</h2>
+<div class="category-grid">
+  <a href="/search/label/Computers">Computers</a>
+  <a href="/search/label/Engineering">Engineering</a>
+</div>
+
+<h2 id="dewey-700">
+  <a href="/search/label/700" style="color: #67fff0; text-decoration: none;">
+    700 – Arts & Recreation
+  </a>
+</h2>
+<div class="category-grid">
+  <a href="/search/label/Visual%20Art">Visual Art</a>
+  <a href="/search/label/Music">Music</a>
+</div>
+
+<h2 id="dewey-800">
+  <a href="/search/label/800" style="color: #67fff0; text-decoration: none;">
+    800 – Literature
+  </a>
+</h2>
+<div class="category-grid">
+  <a href="/search/label/Poetry">Poetry</a>
+  <a href="/search/label/Fiction">Fiction</a>
+</div>
+
+<h2 id="dewey-900">
+  <a href="/search/label/900" style="color: #67fff0; text-decoration: none;">
+    900 – History & Geography
+  </a>
+</h2>
+<div class="category-grid">
+  <a href="/search/label/African%20History">African History</a>
+  <a href="/search/label/World%20War%20II">World War II</a>
+</div>
+
+</div>
+<script>
+  const sections = [
+    { id: 'author-links', keyword: 'Author' },
+    { id: 'musician-links', keyword: 'Musician' },
+    { id: 'painter-links', keyword: 'Painter' },
+    { id: 'actor-links', keyword: 'Actor' },
+    { id: 'anime-links', keyword: 'Anime' },
+    { id: 'kdrama-links', keyword: 'Korean Drama' },
+    { id: 'animal-links', keyword: 'Animal' }
+  ];
+
+  const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+
+  sections.forEach(({ id, keyword }) => {
+    const container = document.getElementById(id);
+    alphabet.forEach(letter => {
+      const label = `${keyword}: ${letter}`;
+      const link = document.createElement('a');
+      link.href = `/search/label/${encodeURIComponent(label)}`;
+      link.textContent = letter;
+      container.appendChild(link);
+    });
+  });
+</script>
