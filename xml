@@ -3848,10 +3848,10 @@ window.addEventListener('DOMContentLoaded', function() {
         <!-- Legal Column -->
         <div class='footer-column'>
           <div class='copyright'>
-            &#169; <script type='text/javascript'>document.write(new Date().getFullYear());</script> MorDictionary<br/>
+            &#169; <script type='text/javascript'>document.write(new Date().getFullYear());</script> Murdoch&#39;s Tier List Everything<br/>
             Licensed under the 
             <a href='https://opensource.org/licenses/MIT' rel='noopener noreferrer' target='_blank'>The Unlicense</a>.<br/>
-            <a href='https://github.com/MorDictionary/blogger-theme-mor-dictionary/tree/main' rel='noopener noreferrer' target='_blank'>
+            <a href='https://github.com/MurdochHarris/murdochs-tier-list-everything-blogger-theme/tree/main' rel='noopener noreferrer' target='_blank'>
               GitHub Repository
             </a>
           </div>
