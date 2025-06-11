@@ -23,25 +23,25 @@
     <b:include data='blog' name='all-head-content'/>
 
 <!-- Custom Favicon from Neocities -->
-<link href='https://mordictionary.neocities.org/Images/Favicons/16%20Rounded%20MorDictionary%20Favicon.png' rel='icon' sizes='16x16' type='image/png'/>
-<link href='https://mordictionary.neocities.org/Images/Favicons/32%20Rounded%20MorDictionary%20Favicon.png' rel='icon' sizes='32x32' type='image/png'/>
-<link href='https://mordictionary.neocities.org/Images/Favicons/48%20Rounded%20MorDictionary%20Favicon.png' rel='icon' sizes='48x48' type='image/png'/>
-<link href='https://mordictionary.neocities.org/Images/Favicons/57%20Rounded%20MorDictionary%20Favicon.png' rel='apple-touch-icon' sizes='57x57'/>
-<link href='https://mordictionary.neocities.org/Images/Favicons/60%20Rounded%20MorDictionary%20Favicon.png' rel='apple-touch-icon' sizes='60x60'/>
-<link href='https://mordictionary.neocities.org/Images/Favicons/72%20Rounded%20MorDictionary%20Favicon.png' rel='apple-touch-icon' sizes='72x72'/>
-<link href='https://mordictionary.neocities.org/Images/Favicons/76%20Rounded%20MorDictionary%20Favicon.png' rel='apple-touch-icon' sizes='76x76'/>
-<link href='https://mordictionary.neocities.org/Images/Favicons/114%20Rounded%20MorDictionary%20Favicon.png' rel='apple-touch-icon' sizes='114x114'/>
-<link href='https://mordictionary.neocities.org/Images/Favicons/120%20Rounded%20MorDictionary%20Favicon.png' rel='apple-touch-icon' sizes='120x120'/>
-<link href='https://mordictionary.neocities.org/Images/Favicons/144%20Rounded%20MorDictionary%20Favicon.png' rel='apple-touch-icon' sizes='144x144'/>
-<link href='https://mordictionary.neocities.org/Images/Favicons/152%20Rounded%20MorDictionary%20Favicon.png' rel='apple-touch-icon' sizes='152x152'/>
-<link href='https://mordictionary.neocities.org/Images/Favicons/192%20MorDictionary%20Favicon.png' rel='icon' sizes='192x192' type='image/png'/>
-<link href='https://mordictionary.neocities.org/Images/Favicons/256%20MorDictionary%20Favicon.png' rel='icon' sizes='256x256' type='image/png'/>
+<link href='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjD4OWRtKy8cIP0aV0YOYf-OnNp1_mHJkAM-s7Ah3l0Qp-ebc_DkiIxz51Kcv2ugTHdAsVNVinU55iP2KMN68kNEHD5pQTUj9FGuIG6NyaRFF9azIOoLQvP5mxldQS-ojZEBHb2CALBIbAJwiYsrVzXE2ruxxrLDEWUhJSLVBbo2TK_B8cF7-edCaln0Tc/w16-h16/16px%20Murdoch%20Tier%20List%20Logo.png' rel='icon' sizes='16x16' type='image/png'/>
+<link href='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqo3drwTmX-wT1aw8t_uOQu-vVPSudM2fEiRpWREGSI9-vjc1h2Eu7u3qUd2FuOIGdR6TZndpX9aejhDe8EK8BspmkFGzLn1lQokRVKdASqpXCBUPvSGbyLN-pQb7KVRh4QG_t7gg2u3-i170W1HZuqVoobd7RcKCzG3idMGZWfptuvHdy0QU_Bzb37G8/s1600/32px%20Murdoch%20Tier%20List%20Logo.png' rel='icon' sizes='32x32' type='image/png'/>
+<link href='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsIQDdih5FDLjzA92XjrlqiQMXLpUx6lW5cAB_BuNb1hTHdss_ZsirS6JjiuZ538FJKzcQKReUbZYpk0R5Y1cflklwjm7AhjxE2ps3FiiJYz7abyyBMuh24t75QRqPseynXULQnEpEMobs8xBriH5h4iUtuelWOPhDuIznmO9r-WVt6XJh3y-Nz6h5oAA/s1600/48px%20Murdoch%20Tier%20List%20Logo.png' rel='icon' sizes='48x48' type='image/png'/>
+<link href='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0FMSPNoOgVqMsWucXbM1ZPiPbxj8lxomT1FI-ah4ZoaZ6kb2x-XUZ1glvM8HBfo47u087_527E9bVTLrtvjpRx_EFLaazZ9oWrQOw3zkbTNWnngmg_7e0dpFadVmGnd9JmApz9mFdrpS5_kS-BD8k3siiMqPl0kHzvO9xKnZ-4gcj6la1a166NTcDZtk/s1600/57px%20Murdoch%20Tier%20List%20Logo.png' rel='apple-touch-icon' sizes='57x57'/>
+<link href='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEihgZcNgRYuHPX5d2-nNcXvvrBsbGYekXsxakJS7n1EIUOI1_qXtoAfHLLxVryDEaaAZizs2Ti39FI3lwzh7FtHAmQeuUUp9zPwWKtpxRkwPbS6hoI-qBn0i2-oxdQQmmwePyASLgUOX6UV544q_pJhYFLcTm76AmRDe_KKZvSplbllC6NmdsdxRDyQf_k/s1600/60px%20Murdoch%20Tier%20List%20Logo.png' rel='apple-touch-icon' sizes='60x60'/>
+<link href='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTQDL1SmAN78vO9RwFbKziVHGvwWEHFUKZif35q8iMqaAkCOum4CT5AULwbJFtdOhFopBrPEbpBTO5SG74w9zUAsEZ_b3tJUhuy3aqxsJb2_GIfG5ypp0N70zaqDvKxXlfEwjXJ2HteiOq3IPXa9n6in05L15MmQ8_PUa4KcJFbCPPHzzFgbSXjM21ndM/s1600/72px%20Murdoch%20Tier%20List%20Logo.png' rel='apple-touch-icon' sizes='72x72'/>
+<link href='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiRlLQat26f1yBMSxb3BdRfwMfcTp_7R4iOn-S2bhdUs2ryBaiKOXlERiH32uiI4nRNTwJcPrvUZ9N3gauySBONwuuH9Xh70JGP7wQXquIYLUSZt_z0UhNraWtDlnh1ivK5AdjtQyHaQfVOH43rnLM8OY_5M3GGVwWUCFM2f0Wj1v6E3SawQyFKPCh2lg8/s1600/76px%20Murdoch%20Tier%20List%20Logo.png' rel='apple-touch-icon' sizes='76x76'/>
+<link href='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhiyCWtZosxSgLTm9RPeljCAzz0qH8dX1gSQ6tl8fdPH6HnrxuzCL0GkS867jX0lPwFyeFp9Dc_yx2B380cmFYE4az9iy-knGmRhzUGrKLsUF606LM0g87upyQeydLrBlO0Y-4623IUpwMOY3Al8s56IWKLj8gvW46a_TUBM7brH5Muo_Re3a9r-GECgVg/s1600/114px%20Murdoch%20Tier%20List%20Logo.png' rel='apple-touch-icon' sizes='114x114'/>
+<link href='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjg57Mgfvf9nRiqwFfWqegOJKuIQS4GlpmYUjH3440Tr9zj_UXfxZJLsUf0p8Bd25yWJb2hr_T65cRCn-JLo7TDOG9H6P4QNMcE1cC9zMsXRHPQ00IfoMw-tk5_H3KDkhoRFqmQzwej4dT5MUGMvCn8JpVKbz4n-I1oR8HYdE8gqixMTsZAwYaWKKaxoZo/s1600/120px%20Murdoch%20Tier%20List%20Logo.png' rel='apple-touch-icon' sizes='120x120'/>
+<link href='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnfPvSpl4iZTdl66dCpzRQXD7QV3ZFhPlVKbayHY3jTwssqdSwJOHEdrRYxn9D1ghLmuwa9yiPdCIct9cVVIXLGZ9Ij5dREhosRQu8O2M1yZ1AG35QKAaRxNt4oehy7w-gd9hUAA0O21GpBSt0DBanp-IVVCr9uOl3bX6wXPnd47BsIcVPdJZWq5Dj_54/s1600/144px%20Murdoch%20Tier%20List%20Logo.png' rel='apple-touch-icon' sizes='144x144'/>
+<link href='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmbClWanpQXa2yP3hHRru7L4QQowO0RNxLkoCnlf3DqqQpLeFK-jp4aJT4JkUOz2c6b8fJEy_PlLr1n7zKf5b-Fr3W7W7cGHWiKhwbcAVTMZYj-2ur5zvw7YFn1m6SjWlaQa4qB0zX_O1-lNr-ZgnfqbWD8A91eEG-UsCnmGxcicuDsEGbRUuT-eTh82M/s1600/152px%20Murdoch%20Tier%20List%20Logo.png' rel='apple-touch-icon' sizes='152x152'/>
+<link href='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwSUENKF_eq6_8bYUenhfUIFJHgfTd-RnAKJ2MNIr43pjLKvCRmfRAiqSXzbNM4_XQO6YC2vXmizTNCEDFb88QvygfNsZb3xiatxi4QGrMgwtlMgLeJdLrs0chVutOuPohhH37hEEleC-WNcfrI443B22KRdEw_s8-NjKtZaJYA3LHqz-xyKqkme4aIvE/s1600/192px%20Murdoch%20Tier%20List%20Logo.png' rel='icon' sizes='192x192' type='image/png'/>
+<link href='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWocr8lez9kQuhypdxXBiSE2gFI6jQPqjgx-Uc4h22T68SQyJtMM3_DfDqGrIQLc5FrhZZeSoDvPGm7cxq8s7RHVO0gy4_qHiVez7sAhGndeRbI0TaqntHkModLFuX0M5KkvcdsiGIzGffhP5cyiJc0c48mBdZf8JlbVjieGel8_IA3EOh_TJQEXuRbu4/s1600/256px%20Murdoch%20Tier%20List%20Logo.png' rel='icon' sizes='256x256' type='image/png'/>
 
     <meta content='#ffffff' name='msapplication-TileColor'/>
-  <meta content='MorDictionary' property='og:title'/>
+  <meta content='Murdochs Tier List Everything' property='og:title'/>
 <meta content='A website for defining everything from neologisms, to hyperspecific phrasings.' property='og:description'/>
 <meta content='https://github.com/WearYourDictionary/wear-your-dictionary-blogger-theme/blob/f3b1e6ebf3789dea7109ed6400ba60ce317f993b/WearYourDictionary%20Blogspot%20Favicons/WearYourDictionary%20180%20Favicon.png' property='og:image'/>
-<meta content='https://wearyourdictionary.blogspot.com/' property='og:url'/>
+<meta content='https://murdochstierlisteverything.blogspot.com/' property='og:url'/>
 
   <meta content='summary_large_image' name='twitter:card'/>
 <meta content='@MurdochHarris' name='twitter:site'/>
@@ -549,26 +549,24 @@ h2:has(> a[href="/p/categories.html"]) {
   margin-top: 0;
   padding-top: 0;
 }
-
 .sidebar .widget {
   margin-bottom: 20px;
 }
-
-/* Icon headers */
+/* Icon headers - Blue Bronze Scheme */
 #BlogArchive1 h2:before,
 #Label1 h2:before,
 #Translate1 h2:before {
   font-family: 'Material Icons';
   margin-right: 8px;
   vertical-align: middle;
-  color: var(--color-link); /* Blue icons */
+  color: var(--color-border); /* bronze */
   text-shadow: 0 0 4px var(--color-search-glow);
 }
 #BlogArchive1 h2:before { content: 'archive'; }
 #Label1 h2:before { content: 'label'; }
-#Translate1 h2:before { 
-  content: 'translate'; 
-  color: var(--color-border); /* Bronze highlight */
+#Translate1 h2:before {
+  content: 'translate';
+  color: var(--color-link-hover); /* soft gold-like highlight */
   text-shadow: 0 0 6px var(--color-search-glow);
 }
 /* Container: Grid for two-column layout */
@@ -589,12 +587,12 @@ h2:has(> a[href="/p/categories.html"]) {
 .widget-content.list-label-widget-content li a {
   display: block;
   padding: 4px 8px;
-  background-color: var(--category-item-bg); /* Dark background */
-  color: var(--category-item-color); /* Blue text */
+  background-color: var(--category-item-bg);
+  color: var(--color-on-background); /* main bronze-ish text */
   font-family: var(--font-primary);
   font-size: 0.75rem;
   text-decoration: none;
-  border: var(--border-width) solid var(--color-border); /* Bronze border */
+  border: var(--border-width) solid var(--color-border);
   border-radius: 4px;
   text-align: center;
   box-shadow: 0 0 4px var(--color-search-glow);
@@ -602,8 +600,8 @@ h2:has(> a[href="/p/categories.html"]) {
 }
 /* Hover */
 .widget-content.list-label-widget-content li a:hover {
-  background-color: var(--category-item-hover-bg); /* Darker background */
-  color: var(--link-hover-color); /* Bronze text */
+  background-color: var(--category-item-hover-bg);
+  color: var(--color-link-hover); /* lighter bronze/gold */
   box-shadow: 0 0 8px var(--color-border), 0 0 16px var(--color-border);
 }
 /* Optional: hide or style count badges */
@@ -1429,14 +1427,14 @@ iframe[src*="youtube.com"]:hover {
 <div class='header-container'>
   <header class='header'>
     <div class='logo-container'>
-      <a href='https://mordictionary.blogspot.com/' id='home-page-link'>
+      <a href='https://murdochstierlisteverything.blogspot.com/' id='home-page-link'>
         <img alt='WearYourDictionary Logo' class='header-logo' src='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDhyl_VRRWxeiHPhVeGJCsJ3cqpi_v292-PwNTFf5owb9Ae7aFN6lr6Bn-R3FPCGPnEd02WfJvEXO3M_zwnKXHENH3niY7ZqP8HjPu6cLRQehtSyIzzU7bxwXkavyAUWyZZGvsD53oC9XoOnZROkYL0zJ_UbaVZxMMfy_IO6r9rCyWYSbyAVxs8Dfqh0k/s320/image%20(3).png' srcset='https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDhyl_VRRWxeiHPhVeGJCsJ3cqpi_v292-PwNTFf5owb9Ae7aFN6lr6Bn-R3FPCGPnEd02WfJvEXO3M_zwnKXHENH3niY7ZqP8HjPu6cLRQehtSyIzzU7bxwXkavyAUWyZZGvsD53oC9XoOnZROkYL0zJ_UbaVZxMMfy_IO6r9rCyWYSbyAVxs8Dfqh0k/s320/image%20(3).png 2x'>
         </img>
           </a>
     </div>
 
 <div class='title-container'>
-    <a class='glowing-title' href='https://mordictionary.blogspot.com/'>Murdoch&#39;s Tier List Everything</a>
+    <a class='glowing-title' href='https://murdochstierlisteverything.blogspot.com/'>Murdoch&#39;s Tier List Everything</a>
 </div>
   <div class='search-container'>
     <div class='search-bar'>
@@ -1757,13 +1755,12 @@ iframe[src*="youtube.com"]:hover {
       </nav>
   </header>
 </div>
-
   <div class='content-wrapper'>
     <!-- Sidebar Toggle Icon -->
 <div class='sidebar-icon'>&#9776;</div>
           <div class='sidebar'>
                 <b:section id='post-sidebar-main'>
-                  <b:widget id='BlogArchive1' locked='false' title='' type='BlogArchive' version='2' visible='true'>
+                  <b:widget id='BlogArchive1' locked='false' title='Blog Archive' type='BlogArchive' version='2' visible='true'>
                     <b:widget-settings>
                       <b:widget-setting name='showStyle'>FLAT</b:widget-setting>
                       <b:widget-setting name='yearPattern'>yyyy</b:widget-setting>
@@ -1777,7 +1774,7 @@ iframe[src*="youtube.com"]:hover {
                     </b:widget-settings>
                     <b:includable id='main'>
     <b:if cond='data:title != &quot;&quot;'>
-      <h2><a href='https://mordictionary.blogspot.com/p/archive.html'><data:title/></a></h2>
+      <h2><a href='https://murdochstierlisteverything.blogspot.com/p/archive.html'><data:title/></a></h2>
     </b:if>
     <div class='widget-content'>
       <div id='ArchiveList'>
@@ -3838,8 +3835,8 @@ window.addEventListener('DOMContentLoaded', function() {
         <div class='footer-column'>
           <h3>Socials</h3>
           <div class='footer-links'>
-            <a href='https://www.youtube.com/@mordictionary' rel='noopener noreferrer' target='_blank'>YouTube</a>
-            <a href='https://x.com/mordictionary' rel='noopener noreferrer' target='_blank'>X</a>
+            <a href='https://www.youtube.com/@MrDarkRoasted' rel='noopener noreferrer' target='_blank'>YouTube</a>
+            <a href='https://x.com/murdochharris' rel='noopener noreferrer' target='_blank'>X</a>
             <a href='https://www.reddit.com/user/DictionaryWear/' rel='noopener noreferrer' target='_blank'>Reddit</a>
             <a href='https://mordictionary.neocities.org/' rel='noopener noreferrer' target='_blank'>Neocities</a>
           </div>
@@ -4089,10 +4086,5 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 //]]>
 </script>
-
-
-
-
-
   </body>
 </html>
